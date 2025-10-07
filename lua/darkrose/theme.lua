@@ -140,6 +140,13 @@ M.generate = function()
     markdownCodeBlock = { fg = c.gray },
     markdownCodeDelimiter = { fg = c.gray },
 
+    ["@markup.heading.1.markdown"] = { fg = c.markup.h1 },
+    ["@markup.heading.2.markdown"] = { fg = c.markup.h2 },
+    ["@markup.heading.3.markdown"] = { fg = c.markup.h3 },
+    ["@markup.heading.4.markdown"] = { fg = c.markup.h4 },
+    ["@markup.heading.5.markdown"] = { fg = c.markup.h5 },
+    ["@markup.heading.6.markdown"] = { fg = c.markup.h6 },
+
     -- LSP Groups
     LspReferenceText = { bg = c.bg_visual },
     LspReferenceRead = { link = "LspReferenceText" },
